@@ -1,0 +1,21 @@
+.full-footer {
+  position: fixed;
+  height: 300px;
+  background-color: cadetblue;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  margin-bottom: 0px;
+}
+.footer svg {
+  width: 100%;
+  position: relative;
+  bottom: 0px;
+  color: white;
+  z-index: -99999;
+}
+.maincontent {
+  top: 8px;
+  left: 345px;
+  position: absolute;
+}
