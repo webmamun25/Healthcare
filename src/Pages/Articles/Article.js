@@ -1,5 +1,6 @@
 import React from 'react';
 
+import donate from '../../images/donation.jpg';
 import Footer from '../Shared/Footer/Footer';
 import Header from '../Shared/Header';
 
@@ -9,6 +10,7 @@ const Article = () => {
       <Header></Header>
       <div>
         <h4>Why we need to Donate blood</h4>
+        <img src={donate} alt="" />
         <h5>
           Blood donation is a major concern to the society as donated blood is
           lifesaving for individuals who need it. Blood is scarce. There is a

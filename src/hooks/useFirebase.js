@@ -4,6 +4,7 @@ import {
 } from 'react';
 
 import {
+  createUserWithEmailAndPassword,
   getAuth,
   GoogleAuthProvider,
   onAuthStateChanged,
@@ -53,9 +54,11 @@ const useFirebase = () => {
   };
 
   return {
+    auth,
     user,
     isLoading,
     signInUsingGoogle,
+    createUserWithEmailAndPassword,
     logOut,
   };
 };

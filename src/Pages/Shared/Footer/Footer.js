@@ -30,7 +30,7 @@ const Footer = () => {
               </h1>
             </Col>
           </Row>
-          <Row> &nbsp; &copy; copyright</Row>
+          <Row> &nbsp; &copy; copyright-2021</Row>
         </Container>
       </div>
     </div>

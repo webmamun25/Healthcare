@@ -1,0 +1,17 @@
+.aboutcontent {
+  width: 600px;
+  height: 600px;
+  text-align: justify;
+  margin: 0 auto;
+  color: black;
+  font-size: Bolt;
+}
+.aboutback {
+  background-image: url("../../images/background.jpg");
+  opacity: 0.4;
+  display: flex;
+  background-size: cover;
+
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}

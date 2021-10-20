@@ -14,6 +14,7 @@ import Article from './Pages/Articles/Article';
 import Home from './Pages/Home/Home';
 import Login from './Pages/Login/Login';
 import PrivateRoute from './Pages/Login/PrivateRoute/PrivateRoute';
+import Register from './Pages/Login/Register';
 import Services from './Pages/Services/Services';
 import Notfound from './Pages/Shared/Notfound/Notfound';
 
@@ -29,8 +30,11 @@ function App() {
             <Route path="/home">
               <Home></Home>
             </Route>
-            <Route path="/login">
+            <PrivateRoute path="/login">
               <Login></Login>
+            </PrivateRoute>
+            <Route path="/register">
+              <Register></Register>
             </Route>
             <PrivateRoute path="/services">
               <Services></Services>

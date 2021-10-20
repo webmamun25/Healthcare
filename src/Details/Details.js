@@ -8,13 +8,16 @@ import servicedetail from './serviceDetail';
 const Details = () => {
   const { deatilsId } = useParams();
 
-  const totaldesc = servicedetail.find((prod) => prod.id === deatilsId);
+  const totaldesc = servicedetail.find((desc) => desc.id === deatilsId);
   console.log(totaldesc);
 
   return (
     <div>
       <Card>
-        <Card.Header>Quote</Card.Header>
+        <Card.Header>
+          {" "}
+          <img src={totaldesc.img} alt="" />{" "}
+        </Card.Header>
         <Card.Body>
           <blockquote className="blockquote mb-0">
             <p> {deatilsId} </p>
